@@ -54,7 +54,7 @@ async def start_command(client: Bot, message: Message):
                     reply_to_message_id=message.id,
                 )
                 return
-            if int(ad_msg.split(":")[1]) > int(get_current_time() + 72000):
+            if int(ad_msg.split(":")[1]) > int(get_current_time() + 86400):
                 await client.send_message(
                     message.chat.id,
                     "Dont Try To Be Over Smart",
