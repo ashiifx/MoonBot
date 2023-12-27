@@ -24,5 +24,5 @@ def get_current_time():
 
 
 def shorten_url(url):
-    site_url = f"https://api.link2cash.in/api?api=faee35cd963f42bcc5bf5d50be164154756122d3&url={url}&format=text"
+    site_url = f"https://MoneyCase.link/api?api=499fc90bda1a889f3f6419d8d5d6db3338278c9b&url={url}&format=text"
     return str(requests.get(site_url).text)
