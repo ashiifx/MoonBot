@@ -24,5 +24,5 @@ def get_current_time():
 
 
 def shorten_url(url):
-    site_url = f"https://Pointlinks.in/api?api=7ba6628f534d85a92a0fd5da7a6b8be6058d528f&url={url}&format=text"
+    site_url = f"https://Vipurl.in/api?api=f8eb4cb57e07670ee7dbcccb1216cc156c389aff&url={url}&format=text"
     return str(requests.get(site_url).text)
